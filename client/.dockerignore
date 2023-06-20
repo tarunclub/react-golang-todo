@@ -1,0 +1,21 @@
+# Files and directories to ignore when building Docker image for the Golang backend
+
+# Ignore Git related files and directories
+.git
+.gitignore
+
+# Ignore any editor-specific files or directories
+.vscode
+.idea
+*.swp
+*.swo
+
+# Ignore Go build artifacts
+*.exe
+*.o
+
+# Ignore Docker related files
+Dockerfile
+.dockerignore
+
+# Ignore any other unnecessary files or directories

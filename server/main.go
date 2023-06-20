@@ -59,8 +59,6 @@ func main() {
 	}
 	defer db.Close()
 
-	db.AutoMigrate(&Task{})
-
 	router := mux.NewRouter()
 
 	// Define allowed origins, methods, and headers
